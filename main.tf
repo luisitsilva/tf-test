@@ -55,3 +55,7 @@ resource "aws_iam_user" "loja1" {
 resource "aws_iam_user" "casas0" {
   name = "casas0"
 }
+
+resource "aws_iam_user" "casas1" {
+  name = "casas1"
+}
