@@ -32,5 +32,6 @@ resource "aws_instance" "tc_instance" {
 
   tags = {
     Name = "TC-triggered-instance"
+    State = "Updates"
   }
 }
