@@ -35,3 +35,23 @@ resource "aws_instance" "tc_instance" {
     State = "Updates"
   }
 }
+
+resource "aws_iam_user" "pedro" {
+  name = "Pedro"
+}
+
+resource "aws_iam_user" "joao" {
+  name = "Joao"
+}
+
+resource "aws_iam_user" "Antonio" {
+  name = "Antonio"
+}
+
+resource "aws_iam_user" "loja1" {
+  name = "Loja1"
+}
+
+resource "aws_iam_user" "casas0" {
+  name = "casas0"
+}
